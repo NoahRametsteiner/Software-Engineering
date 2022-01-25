@@ -19,10 +19,12 @@
 
         <Button Grid.Row="0" Grid.Column="0" Margin="75,25,75,25" Content="Generate" Name="Generate" Click="Generate_Click"></Button>
 
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,55,50,240" Text="GROSSB" />
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,100,50,195" Text="KLEINB" />
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,145,50,150" Text="SONDERZ" />
-        <TextBox Grid.Row="1" Margin="50,10,50,285" Text="ZIFFERN" />
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,55,50,240" Text="" Name="text1"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,100,50,195" Text="" Name="text2"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,145,50,150" Text="" Name="text3" />
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,10,50,285" Text="" Name="text4"/>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="50,10,50,285" Text="" Name="text5"/>
 
     </Grid>
 </Window>
