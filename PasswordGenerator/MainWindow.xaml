@@ -19,12 +19,12 @@
 
         <Button Grid.Row="0" Grid.Column="0" Margin="75,25,75,25" Content="Generate" Name="Generate" Click="Generate_Click"></Button>
 
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,55,50,240" Text="" Name="text1"/>
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,100,50,195" Text="" Name="text2"/>
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,145,50,150" Text="" Name="text3" />
-        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,10,50,285" Text="" Name="text4"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,55,50,240" Text="5" Name="low"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,100,50,195" Text="5" Name="big"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,145,50,150" Text="5" Name="num" />
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="50,10,50,285" Text="5" Name="spe"/>
 
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="50,10,50,285" Text="" Name="text5"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="50,10,50,285" Text="Password" Name="pwfield"/>
 
     </Grid>
 </Window>

@@ -43,13 +43,13 @@ namespace PasswordGenerator
             int count = 0;
             Start:
 
-            kleinb = Convert.ToInt32(text4.Text);
-            grossb = Convert.ToInt32(text3.Text);
-            ziffern = Convert.ToInt32(text1.Text);
-            sonderz = Convert.ToInt32(text2.Text);
+            kleinb = Convert.ToInt32(low.Text);
+            grossb = Convert.ToInt32(big.Text);
+            ziffern = Convert.ToInt32(num.Text);
+            sonderz = Convert.ToInt32(spe.Text);
             String Password = "";
             int check = 0;
-            size = grossb+ kleinb+ sonderz+ ziffern; ///Länge des Passworts
+            size = grossb+kleinb+sonderz+ziffern; ///Länge des Passworts
 
             for (int i = 0; i < size; i++)
             {
@@ -64,11 +64,8 @@ namespace PasswordGenerator
                 count++;
                 goto Start;
             }
-            else
-            {
-                Console.WriteLine(count);
-                return Password;
-            }
+            Console.WriteLine(count);
+            return Password;
         }
 
         #endregion
@@ -110,7 +107,7 @@ namespace PasswordGenerator
         private void Generate_Click(object sender, RoutedEventArgs e)
         {
             pw = Gen();
-            text5.Text = pw;
+            pwfield.Text = pw;
         }
     }
 }
